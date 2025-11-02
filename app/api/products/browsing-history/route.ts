@@ -12,6 +12,8 @@ export const GET = async (request: NextRequest) => {
     return NextResponse.json([])
   }
 
+
+
   const productIds = productIdsParam.split(',')
   const categories = categoriesParam.split(',')
   const filter =
